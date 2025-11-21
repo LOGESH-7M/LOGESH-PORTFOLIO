@@ -1,111 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>LOGESH PORTFOLIO</title>
-        <meta name="description" content ="Hey I am Logesh! Please check out my page which i created using my HTML5 skills">
-        <link rel="icon" href="IMAGES/Marvel.png" type="image/png">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Modak&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-             <nav>
-                    <ul type="None">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="#About">About me</a></li>
-                        <li><a href="#Skills">Skills</a></li>
-                        <li><a href="#Education">Education</a></li>
-                        <li><a href="#Contact">Contact form</a></li>
-                    </ul>
-             </nav>
-             <div>
-                
-                <figure>
-                <img src="IMAGES/91afa420-b5a0-492d-a240-eb2e153b55ba.jpg" alt="Logesh Photo" class="dp">
-                
-            </figure>
-                <h1 class="TITLE">LOGESH PORTFOLIO</h1>
-            
-             </div>
-            
-            
-            
-               
 
-        </header>       
-        <hr>
-        <main>
-            <section id="About">
-                <h2>About me:</h2>
-                <p>I am <b>Logesh</b>. Nice to see you here.</p>
-                <p>I am a <mark>CSE STUDENT</mark> studying at VIT,Vellore upskilling myself❤️</p>
-            </section>
-            <section id="Skills">
-                <h2>My skiils:</h2>
-                <ul>
-                    <li>Python</li>
-                    <li>C++</li>
-                    <li>DSA(ongoing)</li>
-                    <li>HTML5</li>
-                </ul>                
-            </section>
-            <section id="Education">
-                <h2>My Education:</h2>
-                <table border="1">
-                    <thead>
-                        <tr><th scope="col">Standard</th><th scope="col">Marks</th><th scope="col">Percentage</th></tr>
-                    </thead>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logesh M | Full Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Logesh M, an aspiring Full Stack Developer passionate about creating dynamic and user-friendly web experiences.">
+    <link rel="icon" href="IMAGES/Marvel.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
 
-                    <tbody>
-                        <tr><th scope="row">10th</th><td>487</td><td>97.4%</td></tr>
-                        <tr><th scope="row">11th</th><td>596</td><td><b>99.3%</b></td></tr>
-                        <tr><th scope="row">12th</th><td>590</td><td>98.3%</td></tr>
-                    </tbody>
-                </table>
-            </section>
-            <hr>
-            <section id="Contact">
-                <form action="" method="GET">
-                    <h2 class="Contact">Contact me</h2>
-                    <fieldset>
-                        <legend>Contact Form</legend>
-                        <label for="Name">Name:</label>
-                        <input type="text" id="Name" name="Name" placeholder="eg:John" required class="textbox" ><br>
-                        <label for="Email">Email:</label>
-                        <input type="email" id="Email" name="Email" placeholder="eg:abc@gmail.com" required class="textbox"><br>
-                        <label for="Phone">Phone:</label>
-                        <input type="tel" id="Phone" name="Phone" placeholder="eg:9019383829" pattern="[1-9][0-9]{9}" required class="textbox"><br>
-                        <p>Select your gender(optional):</p>
-                        <input type="radio" id="Male" name="Gender" value="Male" class="radios">
-                        <label for="Male">Male</label><br>
-                        <input type="radio" id="Female" name="Gender" value="Female" class="radios">
-                        <label for="Female">Female</label><br>
-                        <input type="radio" id="Other" name="Gender" value="Prefer not to say" class="radios">
-                        <label for="Other">Other</label><br>
-                        <p>Select your interests:</p>
-                        <input type="checkbox" id="Coding" name="Interests" value="Coding">
-                        <label for="Coding">Coding</label><br>
-                        <input type="checkbox" id="Music" name="Interests" value="Music">
-                        <label for="Music">Music</label><br>
-                        <input type="checkbox" id="Sports" name="Interests" value="Sports">
-                        <label for="Sports">Sports</label><br>
-                        <input type="checkbox" id="Dance" name="Interests" value="Dance">
-                        <label for="Dance">Dance</label><br>
-                        <button type="reset" class="reset-button">Reset</button>
-                        <button type="submit" class="submit-button">Submit</button>
-                    </fieldset>
-                </form>
-            </section>
-        </main>
-        <hr>
-        <footer class="center">
-            <p><b>Copyright&copy; LOGESH M</b></p>
-            <p>Stay in touch with me?<a href="https://www.instagram.com/logesh__07m/" target="_blank"><img src="IMAGES/images.jpg" alt="Instagram icon" class="icon">Instagram profile</a></p>
-            <p>Reach me!<a href="mailto:meenamanicklogesh@gmail.com" target="_self"><img src="IMAGES/image.png" alt="Mail icon" class="icon">Mail now</a></p>
-        </footer>
-    </body>
+    <!-- Google Fonts: Outfit (Headings) and Inter (Body) for a premium tech look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo-wrapper">
+                <!-- Using text logo if image fails or for better SEO/Style -->
+                <a href="/" class="logo-text">LOGESH.DEV</a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#Home" class="nav-link">Home</a></li>
+                    <li><a href="#About" class="nav-link">About</a></li>
+                    <li><a href="#Skills" class="nav-link">Skills</a></li>
+                    <li><a href="#Contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="Home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <h1 class="hero-title">Logesh M</h1>
+                    <p class="hero-subtitle">Aspiring Full Stack Developer</p>
+                    <p class="hero-description">
+                        Building digital experiences with precision and passion. I turn complex problems into elegant,
+                        user-friendly solutions.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#Contact" class="btn btn-primary">Get in Touch</a>
+                        <a href="#Skills" class="btn btn-secondary">View Skills</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="image-wrapper">
+                        <img src="IMAGES/PIC-removebg-preview_imresizer-removebg-preview (1).png" alt="Logesh M"
+                            class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="About" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>
+                        I am a passionate developer with a strong foundation in web technologies. My journey in coding
+                        is driven by curiosity and a desire to create meaningful digital products.
+                    </p>
+                    <p>
+                        I specialize in building dynamic websites and applications that prioritize user experience and
+                        performance. Constantly learning, I stay updated with the latest industry trends to deliver
+                        modern solutions. Beyond coding, I enjoy problem-solving and exploring new algorithms.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Skills" class="section skills-section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <!-- Skill Card 1 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="IMAGES/html logo.png" alt="HTML5">
+                        </div>
+                        <h3 class="skill-name">HTML5</h3>
+                    </div>
+                    <!-- Skill Card 2 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="IMAGES/css logo.png" alt="CSS3">
+                        </div>
+                        <h3 class="skill-name">CSS3</h3>
+                    </div>
+                    <!-- Skill Card 3 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="IMAGES/JS LOGO.png" alt="JavaScript">
+                        </div>
+                        <h3 class="skill-name">JavaScript</h3>
+                    </div>
+                    <!-- Skill Card 4 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="IMAGES/PYTHON LOGO.png" alt="Python">
+                        </div>
+                        <h3 class="skill-name">Python</h3>
+                    </div>
+                    <!-- Skill Card 5 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="IMAGES/cpp logo.jpg" alt="C++">
+                        </div>
+                        <h3 class="skill-name">C++</h3>
+                    </div>
+                    <!-- Skill Card 6 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="IMAGES/sql logo.png" alt="SQL">
+                        </div>
+                        <h3 class="skill-name">SQL</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="Contact" class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h2 class="footer-logo">LOGESH.DEV</h2>
+                <p class="copyright">&copy; 2025 Logesh M. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.instagram.com/logesh__07m/" target="_blank" class="social-link">
+                    Instagram
+                </a>
+                <a href="mailto:meenamanicklogesh@gmail.com" class="social-link">
+                    Email
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
