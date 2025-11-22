@@ -107,11 +107,12 @@ img {
 .btn-primary {
   background-color: var(--accent-color);
   color: var(--bg-primary);
+  
 }
 
 .btn-primary:hover {
   background-color: var(--accent-hover);
-  transform: translateY(-2px);
+
 }
 
 .btn-secondary {
@@ -309,7 +310,7 @@ img {
 }
 
 .skill-card:hover {
-  transform: translateY(-5px);
+  transform: scale(1.2);
   border-color: var(--accent-color);
 }
 
