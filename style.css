@@ -103,10 +103,24 @@ img {
   cursor: pointer;
   transition: all var(--transition-fast);
 }
-
+@keyframes buttonscale{
+  0%{
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+  50%{
+    transform: scale(1);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+}
 .btn-primary {
   background-color: var(--accent-color);
   color: var(--bg-primary);
+  animation: buttonscale 1.5s ease-out  infinite forwards;
   
 }
 
@@ -251,7 +265,19 @@ img {
   max-width: 500px;
   margin-bottom: 2.5rem;
 }
-
+@keyframes slideinleft{
+  from{
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.hero-visual{
+  animation: slideinleft 1.5s ease-out forwards;
+}
 .image-wrapper {
   position: relative;
   width: 100%;
