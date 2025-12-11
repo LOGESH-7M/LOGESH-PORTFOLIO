@@ -33,6 +33,16 @@
   --transition-fast: 0.2s ease;
 }
 
+body.light {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f1f5f9;
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --accent-color: #0284c7;
+  --accent-hover: #0369a1;
+  --border-color: #cbd5e1;
+}
+
 /* 
 ==========================================
    GLOBAL RESET & TYPOGRAPHY
@@ -178,7 +188,7 @@ img {
   left: 0;
   padding-top:1rem;
   width: 100%;
-  background-color: rgba(15, 23, 42, 0.9);
+  
   z-index: 1000;
   /* Glassmorphism base 
   backdrop-filter: blur(10px);
