@@ -50,13 +50,6 @@ Google Fonts: Outfit & Inter
 
 The website supports multiple themes using simple CSS variable switching.
 
-📁 Project Structure
-/
-│── index.html
-│── style.css
-|── script.js
-│── README.md
-└── /IMAGES
 
 📬 Contact
 
